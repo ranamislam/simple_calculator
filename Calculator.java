@@ -11,7 +11,7 @@ public class Calculator
 		Scanner keyboard = new Scanner(System.in);
 		int input1 = keyboard.nextInt();
 		
-		System.out.println("Enter a for addition, s for substraction, m for multifly, d for division:");
+		System.out.println("Enter a for addition, s for substraction, m for multiply, d for division:");
 		char input2 = keyboard.next().charAt(0);
 		
 		System.out.println("Please enter second number of your calculation: ");
@@ -58,10 +58,5 @@ public class Calculator
 	public static int division(int x, int y)
 	{
 		return x / y;
-	}
-	
-	public static void print(int input1)
-	{
-		System.out.println("=");
 	}
 }
